@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.bg-dark {
+  background-color: lawngreen;
+}
+
+.row div:nth-child( even ) { 
+  background-color: yellow;
+}
+
+.row div:nth-child( odd ) { 
+  background-color: blue;
+}
